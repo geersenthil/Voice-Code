@@ -318,7 +318,7 @@ def preprocess_data(files):
 saved_model = tf.saved_model.load(saved_model_path)
 
 
-# in the example, test_file is a dir which contains 2_george_0.wav
+# test_file contains 2_george_0.wav
 file_string = os.path.join(pathlib.Path('test_file'),'2_george_0.wav')
 test_file = pathlib.Path(file_string)
 
